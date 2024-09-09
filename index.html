@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">"
+    <title>A biblioteca</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Um dia, estava andando em uma rua antiga, com pequenas casas e jardins floridos, quando avistei uma biblioteca de aspecto vintage muito bonita. Ao olhar a placa do estabelecimento, vi que estava aberto e resolvi entrar!</p>
+            <button class="btn-proximo" data-proximo="1">Porta esquerda</button>
+            <button class="btn-proximo" data-proximo="2">Porta direita</button>
+        </div>
+         <div class="passo" id="passo-1">
+            <p>Você comeca sua jornada na Porta esquerda, subindo uma escada para</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no andar de cima</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na porta direita, você avista uma estante cheia de livros, e dentro de um deles encontra uma carta. Nela, uma das pistas indica que para localizar a entrada de uma biblioteca secreta você deve procurar a próxima pista em um dos pontos temáticos do estabelecimento. Por qual você comeca</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os livros gênero  ação</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os livros do gênero drama</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo da prateleira dos livros de  ação, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no armário do andar de baixo.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o armário no andar de baixo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.png" alt="">
+            <img src="cenario-passo4.jpeg" alt="">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas prateleiras dos livros do gênero drama, você descobre um mapa antigo escondido atrás de uma estátua, apontando que a próxima
+                pista está em baú</p>
+            <button class="btn-proximo" data-proximo="7">Ver o baú</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando alguns dos livros, você encontra algo, mas isso te leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No armário do andar de baixo, a busca pela biblioteca se intensifica. Você se depara com uma escolha importante.</p>
+            <button class="btn-proximo" data-proximo="9">Surpresa 1</button>
+            <button class="btn-proximo" data-proximo="10">Surpresa 2</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você finalmente encontra um mapa antigo. Agora, para o andar de baixo!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir!</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você encontra uma passagem escondida com inscrições antigas que revelam a entrada da
+                biblioteca secreta.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Essa escolha te leva de volta a entrada, não há mais sinais
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.png" alt="">
+            <img src="cenario-passo11.png" alt="">
+            <p>Dentro da biblioteca secreta, você descobre tesouros, livros e histórias inimagináveis.
+        </p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando, você finalmente encontra a pista certa que levam à biblioteca secreta.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
